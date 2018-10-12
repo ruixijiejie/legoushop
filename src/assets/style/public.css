@@ -1,0 +1,153 @@
+/*宽度*/
+.boxAuto{
+	width: 100%;
+}
+
+.box320{
+	min-width: 320px; /*超小屏幕 手机 iPhone5 320px*/
+	max-width: 480px; /*小屏幕 平板 iPad*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	font-size: 12px;
+	line-height: 24px;
+	color: #5a5a5a;
+}
+
+/*浮动*/
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+/*套在父元素上面*/
+.clear:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+/*顶部的外边距*/
+.marginTop55{
+	margin-top: 55px;
+}
+
+.marginTop42{
+	margin-top: 42px;
+}
+
+.marginTop30{
+	margin-top: 30px;
+}
+
+.marginTop20{
+	margin-top: 20px;
+}
+
+.marginTop10{
+	margin-top: 10px;
+}
+
+/*公共的标题*/
+.publicTitle{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.fontWeight{
+	font-weight: bold;
+}
+
+.font14{
+	font-size: 14px
+}
+
+.font16{
+	font-size: 16px
+}
+
+.font18{
+	font-size: 18px
+}
+
+.font20{
+	font-size: 20px
+}
+
+.font22{
+	font-size: 22px
+}
+
+.colorWhite{
+	color: #fff;
+}
+
+.colorRed{
+	color: rgb(200, 17, 24);
+	font-weight: bold;
+}
+
+.colorBlack{
+	color: #000;
+}
+
+.bgColorRed{
+	background-color: rgb(200, 17, 24);
+}
+
+.bgColorBlack{
+	background-color: rgb(67, 67, 67);
+}
+
+.borderTop1px{
+	border-top: solid 1px #cbcbcb;
+}
+
+.borderBottom1px{
+	border-bottom: solid 1px #cbcbcb;
+}
+
+/*公共标题*/
+.commonTitle h5{
+	font-size: 16px;
+	padding: 10px;
+	border-bottom: solid 3px #f0f0f0;
+	color: #000;
+	text-align: center;
+}
+
+/*分页效果*/
+.pager li{
+	width: 40px;
+	height: 36px;
+	
+	text-align: center;
+	line-height: 36px;
+	
+	background-color: #d8d8d8;
+	color: #666;
+	font-size: 14px;
+	
+	float: left;
+	margin-right: 1px;
+}
+
+.pager .current,.pager li:hover{	
+	background-color: #b50900;
+	color: #fff;
+}
+
+.pager li:first-of-type{
+	border-radius: 6px 0px 0px 6px;
+}
+
+.pager li:last-of-type{
+	border-radius: 0px 6px 6px 0px;
+}

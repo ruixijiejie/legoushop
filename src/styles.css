@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("../node_modules/ng-zorro-antd/ng-zorro-antd.min.css");
+@import url("assets/style/public.css");
+@import url("assets/style/reset.css");

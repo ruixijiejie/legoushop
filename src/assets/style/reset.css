@@ -1,0 +1,19 @@
+/*清除所有元素的默认内外边距*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*解决图片3px的问题*/
+img{
+	/*display: block;*/
+	vertical-align: middle;
+}
